@@ -1,0 +1,153 @@
+@font-face { font-family: 'SctoGroteskABold';
+    src: url("../fonts/SctoGroteskA-Bold.woff2") format('truetype')}
+@font-face { font-family: 'SctoGroteskAMedium';
+    src: url('../fonts/SctoGroteskA-Medium.woff2') format('truetype')}
+@font-face { font-family: 'SctoGroteskARegular';
+    src: url('../fonts/SctoGroteskA-Regular.woff2') format('truetype')}
+
+/* -------------------------------------------------------INDEX-------------------------------------------------------------- */
+body {margin: 0}
+header {
+    display: flex;
+    justify-content: space-around;
+    font-family: "SctoGroteskARegular";
+}
+
+img[alt="basic_logo"] {
+    width: 100px;
+}
+img[alt="menu"] {
+    width: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+} a:hover {color:gray}
+li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+ul {
+    display: flex;
+}
+/* -----------------------Intro----------------- */
+header {
+    margin-bottom: 100px;
+}
+#intro {
+    font-family: "SctoGroteskABold";
+    font-size: 3rem;
+    width: 80vw;
+    margin: 0 auto;
+}
+#intro h1 {
+    margin: 0;
+}
+#intro h1:nth-child(2) {
+    text-align: right;
+}
+#intro h1:first-child {
+    width: 700px;
+}
+#intro hr {
+    margin: 12px 0;
+}
+video {
+    width: 100%;
+}
+
+/* -----------------------Intro----------------- */
+#strategyDesignTech {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+#strategyDesignTech p:first-child {
+    font-family: "SctoGroteskARegular";
+}
+#strategyDesignTech p:nth-child(2) {
+    font-family: "SctoGroteskABold";
+    width: 60%;
+    font-size: 2rem;
+}
+#strategyDesignTech a {
+    border: black solid 1px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: "SctoGroteskARegular";
+}
+#strategyDesignTech a:hover {
+    border: black solid 1px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+}
+#strategyDesignTech img{
+    width: 300px;
+    display: inline;
+}
+hr:nth-of-type(1){
+    width: 80vw;
+    margin: 24px auto;
+}
+
+#featuredEngagements {
+    width: 80vw;
+    margin: 0 auto;
+}
+#featuredEngagements h1 {
+    margin-top: 150px;
+    font-family: "SctoGroteskABold";
+    font-size: 2rem;
+}
+.featuredPartner {
+    width: 25%;
+}
+.featuredPartner hr {
+    width: 100%;
+}
+.featuredPartner h2 {
+    font-family: "SctoGroteskABold";}
+.featuredPartner p {
+    font-family: "SctoGroteskARegular";
+}
+
+#aboutUs {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #252422;
+    color: #f9cdcd;
+}
+#aboutUs h1 {
+    font-family: "SctoGroteskABold";
+}
+#aboutUs video {
+    width: 30%;
+}
+#aboutUs h1 {
+    font-size: 3rem;
+}
+#aboutUs a {
+    color: #f9cdcd;
+    border: #f9cdcd solid 1px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: "SctoGroteskARegular";
+}
+
+
+
+
+/* -------------------------------------------------------ASIDE-------------------------------------------------------------- */
+/* -------------------------------------------------------WORK-------------------------------------------------------------- */
+/* -------------------------------------------------------ABOUT-------------------------------------------------------------- */
+/* -------------------------------------------------------NEWS-------------------------------------------------------------- */
+/* -------------------------------------------------------THINKING-------------------------------------------------------------- */
+/* -------------------------------------------------------CONTACT-------------------------------------------------------------- */
